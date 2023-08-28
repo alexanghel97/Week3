@@ -1,0 +1,123 @@
+h1 {
+    margin-left: 20px;
+    padding-left: 150px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(221, 219, 218);
+    height: 200px;
+    position: relative;
+    top: -8px;
+    left: -8px;
+    width: 1920px;
+}
+
+.Container {
+    margin-top: 40px;
+    margin-left: 575px;
+    background-color: rgb(198, 224, 195);
+    height: 285px;
+    display: inline-flex;
+    align-items: left;
+    justify-content: left;
+    width: 770px;
+    border-radius: 10px;
+    border: none;
+}
+
+.Name {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.Email {
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.Subject {
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.info {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 8px;
+
+}
+
+.Message {
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 8px;
+}
+
+.Message button {
+    margin-left: 195px;
+    width: 150px;
+    margin-top: 10px;
+    height: 40px;
+    background-color: rgb(27, 125, 216);
+    color: rgb(247, 245, 244);
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    transition: background-color 0.7s,color 0.7s;
+    cursor: pointer;
+}
+
+
+.Message button:hover {
+    background-color: rgba(70, 223, 139, 0.925);
+    color: rgb(247, 245, 244);
+}
+
+footer {
+display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.text {
+    font-size: 20px;
+    display: inline-block;
+}
+
+
+
+.list ul{
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.list ul > li {
+    display: inline-block;
+    padding: 10px 80px;
+}
+
+.list ul > li > a {
+    color: rgb(21, 9, 201);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
